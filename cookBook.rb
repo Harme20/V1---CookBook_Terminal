@@ -7,6 +7,8 @@ while (opcoes != 3) do
     puts "[1] Incluir uma receita"
     puts "[2] Ver todas as receitas"
     puts "[3] Sair"
+    puts "[4] Remover receita"
+    puts "[5] Buscar receitas"
     puts "\n\n"
     print "Digite a opção desejada: "    
     opcoes = gets().to_i
