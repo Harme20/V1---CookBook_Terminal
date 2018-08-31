@@ -15,6 +15,8 @@ while (opcoes != 3) do
         numero_receita = numero_receita + 1 
         puts "Opção escolhida: " + opcoes.to_s
         print "Digite o nome da sua nova receita: "
+        print "Digite o modo de preparo: "
+        print "Digite o tipo da receita:"
         descricao = gets().chomp()
         receita = "##{ numero_receita.to_s } - "  + descricao
         puts "Receita cadastrada: #{ receita } "
