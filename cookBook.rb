@@ -29,7 +29,7 @@ while (opcoes != 3) do
             puts
         end        
     elsif (opcoes == 3)
-        puts "O My CookBook agradeçe,volte sempre!"        
+        puts "O My CookBook agradece,volte sempre!"        
     else
         puts "Favor inserir comandos ou [1] ou [2] ou [3]."
         puts
